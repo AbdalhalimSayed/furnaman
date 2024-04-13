@@ -1,0 +1,201 @@
+    /* تخصيصات CSS */
+    .navbar {
+        direction: rtl !important;
+        background-color: #336699 !important;
+
+        /* لون الخلفية لشريط التنقل */
+    }
+
+
+
+    .navbar-nav .nav-link {
+        color: orange !important;
+        /* لون الروابط */
+        font-size: 18px;
+    }
+
+    .nav-item {
+        padding-right: 24px;
+    }
+
+    .navbar-brand img {
+        height: 40px;
+        /* ارتفاع الشعار */
+    }
+
+    /* discription */
+    .description {
+        margin-top: 100px;
+        line-height: 35px !important;
+        font-size: 18px;
+    }
+
+    .description a {
+        color: #009966;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .carousel-item img {
+        height: 500px !important;
+        /* object-fit: cover; */
+    }
+
+    /* services */
+    .services {
+        direction: rtl;
+    }
+
+    .services h2 {
+        color: #009966;
+        text-decoration: underline;
+    }
+
+    .services p {
+        line-height: 35px;
+    }
+
+    .services .carousel-item img {
+        height: 300px !important;
+    }
+
+    .services .card-body h5 {
+        color: #009966;
+        text-decoration: underline;
+    }
+
+    /* about */
+    .about {
+        direction: rtl;
+    }
+
+    .about h2 {
+        color: #009966;
+        text-decoration: underline;
+    }
+
+    /* employee */
+    .employee {
+        direction: rtl;
+
+    }
+
+    .employee h2 {
+        color: #009966;
+        text-decoration: underline;
+    }
+
+    .employee ul li p {
+        line-height: 35px;
+    }
+
+    /* advices */
+    .advices {
+        direction: rtl;
+        text-align: right;
+        line-height: 30px;
+    }
+
+    .advices h2 {
+        color: #009966;
+        text-decoration: underline;
+    }
+
+    /* contact */
+    .contact {
+        direction: rtl;
+        text-align: center;
+    }
+
+    .contact h5 {
+        color: #009966;
+        text-decoration: underline;
+        text-align: center;
+
+    }
+
+    /* media query */
+    @media (min-width: 768px) {
+        .collapse {
+            position: relative;
+            left: 10px;
+        }
+    }
+
+    /* Styles for screens with a width of 992px or larger (Desktop) */
+    @media (min-width: 992px) {
+        .collapse {
+            position: relative;
+            left: -300px;
+        }
+    }
+
+    /* Styles for screens with a width of 1200px or larger (Large Desktop) */
+    @media (min-width: 1200px) {
+        .collapse {
+            position: relative;
+            left: -450px;
+        }
+    }
+
+    .content {
+        max-width: 250px;
+        position: fixed;
+        top: 200px;
+        right: 0px;
+        z-index: 1000;
+    }
+
+    .content p {
+        padding: 20px;
+        background-color: blue;
+        border-radius: 30px 5px 5px 30px;
+        box-shadow: 0 5px 10px #0000ffb4, 0 -5px 10px #0000ffb4, -7px 0 10px #0000ffb4;
+    }
+
+    .txt {
+        font-size: 20px;
+        color: wheat;
+        display: none;
+
+    }
+
+    .icn {
+        font-size: 23px;
+        color: wheat;
+        padding-right: 5px;
+    }
+
+    .content p:hover .txt {
+        display: block;
+        float: right;
+    }
+
+    .community {
+        max-width: 250px;
+        position: fixed;
+        top: 320px;
+        right: 0px;
+        z-index: 1000;
+    }
+
+    .community p {
+        padding: 20px;
+        background-color: green;
+        border-radius: 30px 5px 5px 30px;
+        box-shadow: 0 5px 10px #0080009b, 0 -5px 10px #0080009b, -7px 0 10px #0080009b;
+    }
+
+    .community p:hover .txt {
+        display: block;
+        float: right;
+    }
+
+    footer {
+        padding: 20px 0px;
+    }
+
+    footer p {
+        color: white;
+        font-size: 20px;
+    }
